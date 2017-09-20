@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黃石稅計算機</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="addRow">加</button>
+    <table id="itemTable">
+        <tr>
+            <th>金額</th>
+            <th>稅前</th>
+            <th>稅</th>
+        </tr>
+        <tr>
+            <td><input type="number"></td>
+            <td class="itemBeforeTax">0</td>
+            <td class="itemTax">0</td>
+        </tr>
+        <tr>
+            <td><input type="number"></td>
+            <td class="itemBeforeTax">0</td>
+            <td class="itemTax">0</td>
+        </tr>
+        <tr>
+            <td><input type="number"></td>
+            <td class="itemBeforeTax">0</td>
+            <td class="itemTax">0</td>
+        </tr>
+    </table>
+    <table id="sumTable">
+        <tr>
+            <td class="header">銷售額合計</td>
+            <td class="sumBeforeTax">0</td>
+        </tr>
+        <tr>
+            <td class="header">營業稅</td>
+            <td class="tax">0</td>
+        </tr>
+        <tr>
+            <td class="header">總計</td>
+            <td class="sum">0</td>
+        </tr>
+    </table>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+<script src="main.js"></script>
+
+</html>
